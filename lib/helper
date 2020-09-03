@@ -1,0 +1,12 @@
+var faker = require('faker');
+
+module.exports = {
+	timer:5000,
+	randomWord:randomWord()
+}
+
+
+
+function randomWord() {
+	return faker.random.word();
+}
